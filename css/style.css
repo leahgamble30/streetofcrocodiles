@@ -15,7 +15,7 @@ body {
 }
 
 section, header, footer{
-    width:  100%;
+    width:  80%;
     max-width: 700px;
     margin: auto;
     margin-bottom: 10rem;
@@ -24,9 +24,25 @@ section, header, footer{
     
 
 }
-.light {background:#477C8F}
+.light {background:#83c1d7}
 
 .dark {background:#143642}
+
+@media only screen 
+and (min-device-width: 320px)
+and (max-device-width: 400px)
+{
+    p{font-size: 1.3rem;}
+    h1{font-size: 3.5rem;}
+    header h2{font-size: 3.75rem;}
+
+}
+
+.gridimage{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+}
 
 
 /*--styling typeograpghy--*/
