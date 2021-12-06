@@ -8,8 +8,8 @@
 }
 
 body {
-    background: #ffffff;
-    color: rgb(0, 0, 0);
+    background: #F2E0BD;
+    color: #592E25;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 1em
 }
@@ -32,9 +32,9 @@ section, header, footer{
     padding: 0.1em 0;
 
 }
-.light {background:rgb(116, 116, 116)}
+.light {background:#A64521;}
 
-.dark {background:rgb(53, 53, 53)}
+.dark {background:#BF7B54;}
 
 @media only screen 
 and (min-device-width: 320px)
@@ -58,7 +58,7 @@ header p {
 /*--styling typeograpghy--*/
 
 h1,h2, blockquote {
-    color: rgb(0, 0, 0);
+    color: #592E25;
 
 }
 
@@ -86,8 +86,25 @@ h2 {
     margin: 1em 0;
 }
 
+header h1 {
+    color:#F2E0BD;
+
+}
+
+footer h2 {
+    color:#F2E0BD;
+}
+
+footer p {
+    color:#F2E0BD;
+}
+
+header h2 {
+    color:#F2E0BD;
+}
+
 p {
-    color: black;
+    color: #592E25;
     font-size: 1rem;
     padding: 1em 0;
     line-height: 1.4;
@@ -110,12 +127,12 @@ footer {
 cite {
     font-size: 1rem;
     font-style: normal;
-    color: rgb(140, 140, 140)
+    color: #A64521;
 }
 
 /*--styling links--*/
 a {
-    color: rgb(255, 255, 255);
+    color: #A64521;
     text-decoration: none;
 
 }
@@ -133,7 +150,7 @@ nav {
     left: 0;
     margin: 0;
     width: 100%;
-    background: rgb(0, 0, 0);
+    background: #592E25;
     padding:2em 0;
     font-size: 0.75rem;
 
@@ -152,13 +169,13 @@ nav ul li {
 }
 
 nav a {
-    color:rgb(172, 172, 172);
+    color:#F2E0BD;
 
 }
 
 nav a:hover {
     border-bottom: none;
-    color:rgb(248, 1, 1);
+    color:rgb(203, 1, 248);
     transition: all 0.3s ease-in-out
 }
 /*--image control--*/
@@ -182,18 +199,21 @@ hr{
 footer{
     text-align: center;
     font-size: 1rem;
-    margin: 6em 0 3em 0;
+    margin: 2em 0 3em 0;
 }
 
 .connections{
+    align-items: center;
     position: relative;
     margin: 0 auto;
   }
   .connections ul{
+    align-items: center;
     margin: 0;
     padding: 0;
   }
   .connections li{
+      align-items: center;
     margin: 0 10px;
     padding: 0;
     list-style: none;
