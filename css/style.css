@@ -26,13 +26,14 @@ article{
 
 section, header, footer{
     width:  80%;
-    max-width: 2000px;
+    max-width: 760px;
     margin: auto;
     margin-bottom: 0.1rem;
     padding: 0.1em 0;
 
 }
-.light {background:#A64521;}
+.light {background:#A64521;
+}
 
 .dark {background:#BF7B54;}
 
@@ -65,7 +66,11 @@ h1,h2, blockquote {
 h2 
 
 h1, h2{
-    font-family: lust-script, sans-serif;
+    font-family: memoriam-headline-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 5rem;
+
 }
 
 p,blockquote {
@@ -83,12 +88,20 @@ h1 {
 
 h2 {
     font-size: 1.953rem;
-    margin: 1em 0;
+    margin: 0.5em 0;
 }
 
 header h1 {
     color:#F2E0BD;
+    font-family: memoriam-headline-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 10rem;
+line-height: 2em;
+}
 
+header p{
+    color:#F2E0BD;
 }
 
 footer h2 {
@@ -114,7 +127,7 @@ blockquote{
     font-size: 1.9999rem;
     font-style: italic;
     hanging-punctuation: first;
-    text-indent: -0.75rem;
+    text-indent: -0.5rem;
     font-family: grad, serif;
 }
 
@@ -134,6 +147,7 @@ cite {
 a {
     color: #A64521;
     text-decoration: none;
+    text-align: center;
 
 }
 
@@ -199,16 +213,14 @@ hr{
 footer{
     text-align: center;
     font-size: 1rem;
-    margin: 2em 0 3em 0;
+    margin: auto;
 }
 
 .connections{
-    align-items: center;
     position: relative;
     margin: 0 auto;
   }
   .connections ul{
-    align-items: center;
     margin: 0;
     padding: 0;
   }
