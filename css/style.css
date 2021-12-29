@@ -8,11 +8,13 @@
 }
 
 body {
-    background: #F2E0BD;
+    background: #ffffff;
     color: #592E25;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 1em
 }
+
+
 
 article{
     background: #ffffff;
@@ -42,16 +44,29 @@ and (min-device-width: 320px)
 and (max-device-width: 400px)
 {
     p{font-size: 1.3rem;}
-    h1{font-size: 3.5rem;}
-    header h2{font-size: 3.75rem;}
+    h1{font-size: 72px;}
+    header h2{font-size: 1.5rem;}
 
 }
-
-.gridimage{
+.gridimage {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
 }
+
+  .title {
+      padding: 3em;
+  }  
+
+  #example { width: 100%; }
+
+  #example img {
+  float: left;
+  margin: 30px 60px;
+  }
+
+
+
 
 header p {
     color: seashell;
@@ -66,22 +81,29 @@ h1,h2, blockquote {
 h2 
 
 h1, h2{
-    font-family: memoriam-headline-pro, sans-serif;
-font-weight: 400;
+font-family: memoriam-headline-pro, sans-serif;
+font-weight: 50;
 font-style: normal;
-font-size: 5rem;
+font-size: 72px;
 
 }
 
 p,blockquote {
+    margin: 2rem;
     margin-bottom: 1.5rem;
     line-height: 1.4;
     font-family:Arial, Helvetica, sans-serif;
 
 }
 
+p{
+    font-family: new-order, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
 h1 {
-    font-size: 3.052rem;
+    font-size: 96px;
     margin-top: 2em;
 
 }
@@ -104,14 +126,14 @@ header p{
     color:#F2E0BD;
 }
 
-footer h2 {
+ h2 {
     color:#F2E0BD;
 }
 
 footer p {
     color:#F2E0BD;
 }
-
+footer
 header h2 {
     color:#F2E0BD;
 }
