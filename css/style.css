@@ -82,7 +82,15 @@ header h2 {font-size: 1.75rem}
   margin: 30px 60px;
   }
 
+#top{
+    height:200px;
+    width:200px;
+    
+}
 
+.white{
+    background-color:white;
+}
 
 
 header p {
