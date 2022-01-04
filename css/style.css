@@ -70,7 +70,7 @@ header h2 {font-size: 1.75rem}
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
     margin: 210px;
     padding-bottom: 5em;
-    padding-top: 1em;
+    padding-top: 8em;
 }
 
  
@@ -131,6 +131,7 @@ p{
     font-family: new-order, sans-serif;
 font-weight: 400;
 font-style: normal;
+margin:100px;
 }
 
 h1 {
